@@ -8,8 +8,14 @@
     
 </head>
 
-<body> 
-    
+<body>  
+<div id = filter>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>  
+
     <form id="login-form" class = "hidden">
         <input
         required maxlength="15";
@@ -19,34 +25,30 @@
         <input type="submit" value = "Log In"/>
     </form>
     
-    <h2 id="clock">00:00:00</h2>
+    <h2 id="clock">00:00</h2>
 
     <h1 id="greeting" class = "hidden"></h1>
 
     <form id="todo-form">
-        <input 
+            <input type="text" placeholder="What's in your mind?">
+            <span>+</span>
+        <!-- <input 
         type="text";
         placeholder="What's in your mind?"
         >
-        </input>
+        </input> -->
     </form>
+    <div class="bottom">
+        <ul id="todo-list">
+        </ul>
 
-    <ul id="todo-list">
-    </ul>
-
-    <div id="quote">
-        <span></span>
-        <br><span></span>
+        <div id="quote">
+            <span></span>
+            <br><span></span>
          
+        </div>
     </div>
-    <br><br>
-    <div id="weather">
-        <span></span>
-        <span></span>
-    </div>
-   
-
-
+</div>
 </body>
   
     <script src = "js/greetings.js"></script>

@@ -1,0 +1,121 @@
+.hidden{
+    display: none;
+}
+#filter{
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    /* padding : 100%; */
+    /* z-index: -1; */
+    width: 100%;
+    height: 937px;
+    background-color: rgba(0,0,0,0.4);
+}
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -3;
+    opacity:90%;
+    }
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+
+}
+#clock{
+    margin-top : 250px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size : 150px;
+    font-weight: lighter;
+}
+#greeting{
+    margin-top: 20px;
+    text-align: center;
+    color : #fff;
+    font-size: 40px;
+}
+
+#todo-form{
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    border-bottom: 2px solid white;
+
+}
+#todo-form>input{
+    font-size: 18px;
+    margin: auto;
+    border: none;
+    width: 250px;
+    height: 35px;
+    background-color: rgba(0,0,0,0.0);
+    color:#fff;
+    padding-left:10px;
+    margin-left: 5px;
+}
+#todo-form>span{
+    height: 20px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#todo-list{
+    left: 900px;
+    height: 100px ;
+    list-style: none;
+    /* list-style-position: inside; */
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+}
+#todo-list li{
+    margin: auto;
+    width:500px;
+    padding-left: 100px;
+}
+#todo-list button{
+    border: none;
+    width: 35px;
+    background-color: rgba(0,0,0,0.0);
+    color:#fff;
+    font-weight: bolder;
+    font-size: 18px;
+    text-shadow: 0, 0, 10px rgba(0,0,0,0.0);
+    cursor: pointer;
+}
+
+#weather{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    text-align: right;
+    position:relative;
+    top : 28px;
+    left: 1680px;
+}
+#quote{
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+#quote span:first-child{
+    font-size: 20px;
+}
+#quote span:last-child{
+    font-size: 15px;
+}
